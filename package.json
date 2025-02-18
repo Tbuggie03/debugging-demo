@@ -4,7 +4,8 @@
   "description": "A simple HTTP server using POST and status codes.",
   "main": "./src/server.js",
   "scripts": {
-    "start": "node ./src/server.js",
+    "start": "node ./debugging-demo/src/server.js",
+    "watch": "node --watch-path=./src ./debugging-demo/src/server.js",
     "pretest": "eslint ./src --fix",
     "test": "echo \"Tests complete\""
   },
